@@ -6,8 +6,8 @@
 
     // Sample array of movie names and corresponding images
     const moviesData = [
-        { name: "THE BOYS  IMDB- 9.1", image: "img/the boys.jpg" },
-        { name: "Ant-Man ", image: "img/ant man.jpg" },
+        { name: "THE BOYS  IMDB- 9.1", image: "the boys.jpg" },
+        { name: "Ant-Man ", image: "ant man.jpg" },
         // Add other movies with their names and images
     ];
 
