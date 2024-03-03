@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Protest+Revolution&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Protest+Revolution&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Protest+Revolution&family=Rubik+Doodle+Shadow&family=Rubik+Lines&display=swap');
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    body{
+        background-color: black;
+    }
+    .container{
+    text-align: center;
+      position: absolute ;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      width: 100%;
+    }
+    .container span{
+      text-transform: uppercase;
+      display:block;
+    }
+    .text1{
+      color: #00b4cc;
+      font-size: 70px;
+      font-weight: 700;
+      font-family: "Rubik Lines", system-ui;
+      letter-spacing: 30px;
+      margin-bottom: 20px;
+      background: black;
+      position: relative;
+      animation: text 3s 1;
+    }
+    .text2{
+      font-size: 40px;
+      color:#dae90a;
+      font-family: "Rubik Doodle Shadow", system-ui;
+    }
+    @keyframes text{
+      0%{
+        color: #d40a0a;
+        margin-bottom: -40px;
+      }
+      30%{
+        color:#dee20a;
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+      }
+      40%{
+        color:#030f0f;
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+      }
+      60%{
+        color:#ce0864;
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+      }
+      85%{
+        color: #d308c2;
+        letter-spacing: 80px;
+        margin-bottom: -40px;
+      }
+      100%{
+        color: #08a3eb;
+      }
+    }
+    @media screen and (max-width: 788px) {
+    .container span{
+    font-size: 40px;
+    letter-spacing: 15px;
+    padding-right: 26%;
+    }
+}
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <span class ="text1">
+    welcome to 
+  </span>
+  <span class="text2">
+    movie web
+  </span>
+</div>
+<script>
+  // Function to open a new page after a delay
+  function redirectToNewPage() {
+    // Set the delay in milliseconds (e.g., 5000 for 5 seconds)
+    var delayInMilliseconds = 4000;
+
+    
+    setTimeout(function () {
+
+      window.location.href = '.html';
+    }, delayInMilliseconds);
+  }
+
+  redirectToNewPage();
+</script>
+</body>
+
+</html>
